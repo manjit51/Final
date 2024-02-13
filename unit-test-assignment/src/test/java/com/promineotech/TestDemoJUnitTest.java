@@ -67,11 +67,12 @@ class TestDemoJUnitTest {
 	private static Stream<Arguments> argumentsForMultiplyPositive(){
 		Stream<Arguments> s = Stream.of(
 			arguments(5,5,25,false),
-			arguments(5,-5.-25,true)
+			arguments(5,-5,-25,true)
 			
 		);
 		return s;
 	}
+	
 	@Test
 	void assertThatNumberSquaredIsCorrect() {
 		TestDemo mockDemo = spy(testDemo);
