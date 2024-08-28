@@ -1,0 +1,1 @@
+INSERT INTO patron (patron_first_name, patron_last_name, patron_food_preference) VALUES ('John', 'Doe', 'Waffles');
